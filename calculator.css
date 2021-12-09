@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        transform: translate(0px, 206px);
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .wraper {
+        background-color: #ddd;
+        padding: 23px 7px;
+        border-radius: 5px;
+    }
+    .addButtonList{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .row{
+       display: flex;
+       gap: 4px;
+    }
+    
+    .row button {
+        flex: 1;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        padding:12px;
+        margin-bottom: 5px;
+
+
+    }
+    .result {
+        margin-bottom: 13px;
+        width: 200px;
+        background: tomato;
+    }
+    input[type="text"] {
+        padding: 6px 0;
+        outline: none;
+        border: none;
+        width: 100%;
+        background: tomato;
+        padding-left: 6px;
+    }
+    .wraper {
+        transform: translate(-8px, -154px);
+    }
+
+    span.y {
+        position: absolute;
+        top: 0;
+    }
+    
+    button.power {
+        position: relative;
+    }
+    span.b {
+        position: absolute;
+        bottom: 6px;
+    }
+    button.log {
+        position: relative;
+    }
+   
+    @media only screen and (min-width:0px) and (max-width:232px ){
+
+        .container{
+            width: 100%;
+        }
+    } 
