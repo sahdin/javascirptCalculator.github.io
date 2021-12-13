@@ -28,7 +28,7 @@
     .row button {
         flex: 1;
         border-radius: 50%;
-        border: 1px solid #ddd;
+        border: 1px solid #ddd !impotant;
         padding:12px;
         margin-bottom: 5px;
 
